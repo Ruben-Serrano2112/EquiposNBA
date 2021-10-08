@@ -9,15 +9,15 @@
     <StackPanel>
 
         <Border BorderThickness="3" BorderBrush="Black" CornerRadius="3">
-            <StackPanel  Margin="-17,0,-19,0" Width="828">
+            <StackPanel HorizontalAlignment="Stretch">
                 <StackPanel.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="#FF7400FF" Offset="0"/>
                         <GradientStop Color="#FFD1FF04" Offset="1"/>
                     </LinearGradientBrush>
                 </StackPanel.Background>
-                <TextBlock Text="Los Angeles lakers" FontSize="30" FontWeight="Bold" Height="44" Margin="270,0,299,0"/>
-                <WrapPanel Height="179">
+                <TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" Text="Los Angeles lakers" FontSize="30" FontWeight="Bold" Height="44" Margin="270,0,299,0"/>
+                <WrapPanel HorizontalAlignment="center">
                     <Image Margin="5" Source="assets/14_lakers.png" Height="175" Width="150"/>
                     <Image Margin="5" Source="assets/23_lakers.png" Height="175" Width="150"/>
                     <Image Margin="5" Source="assets/39_lakers.png" Height="175" Width="150"/>
@@ -29,15 +29,15 @@
 
 
         <Border BorderThickness="3" BorderBrush="Black" CornerRadius="3">
-            <StackPanel Margin="-17,0,-19,0" Width="828">
+            <StackPanel HorizontalAlignment="Stretch">
                 <StackPanel.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="Black" Offset="0"/>
                         <GradientStop Color="#FFD30000" Offset="1"/>
                     </LinearGradientBrush>
                 </StackPanel.Background>
-                <TextBlock Foreground="White" Text="Miami Heats" FontSize="30" FontWeight="Bold" Height="44" Margin="319,0,322,0"/>
-                <WrapPanel Height="179">
+                <TextBlock Foreground="White" Text="Miami Heats" FontSize="30" FontWeight="Bold" Height="44" Margin="319,0,322,0" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                <WrapPanel HorizontalAlignment="center">
                     <Image Margin="5" Source="assets/22_heat.png" Height="175" Width="150"/>
                     <Image Margin="5" Source="assets/13_heat.png" Height="175" Width="150"/>
                     <Image Margin="5" Source="assets/14_heat.png" Height="175" Width="150"/>
